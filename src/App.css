@@ -8,3 +8,8 @@
   background-position: center;
   height: 100vh;
 }
+
+
+.card{
+  display: flex;
+}

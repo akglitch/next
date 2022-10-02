@@ -6,14 +6,14 @@ import {Grid, Card, Col, Row, Button, Text } from "@nextui-org/react";
 function Hero() {
     return ( 
         <div >
-         
+         <div className='card'>
          <Grid.Container gap={2} justify="center">
           
             {items.map((item) => (
-                <div className='card'>
+                
                   
                   <Grid xs={6} sm={8}  md={3}>                                                                                                                                                                  
-                  <Card className='card' css={{ w: "70%", h: "300px" }}>
+                  <Card className='card' css={{ w: "90%", h: "350px" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
@@ -88,12 +88,13 @@ function Hero() {
     </Card.Footer>
  </Card>
       </Grid>
-                </div>
+            
             ))}
           
           
         
         </Grid.Container>
+        </div>
         </div>
 
      );

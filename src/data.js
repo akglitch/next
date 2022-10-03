@@ -10,7 +10,12 @@ export const items = [
     },
     {
         "img":require("./components/alex-knight-2EJCSULRwC8-unsplash.jpg")
+    },
+    {
+        "img":require("./components/alex-knight-2EJCSULRwC8-unsplash.jpg")
+    },
+    {
+        "img":require("./components/alex-knight-2EJCSULRwC8-unsplash.jpg")
     }
-
 ]
 

@@ -13,7 +13,7 @@ function Hero() {
                 
                   
                   <Grid xs={6} sm={8}  md={3}>                                                                                                                                                                  
-                  <Card className='card' css={{ w: "90%", h: "350px" }}>
+                  <Card className='card' css={{ w: "100%", h: "400px" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
